@@ -1,0 +1,100 @@
+.user-reg{
+	width: 996px;
+	text-align: center;
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	margin: 10px auto;
+	.user-reg1{
+		width: 45%;
+		display: inline-block;
+		border-top: 1px dashed #d5d5d5;
+		float: left;
+		margin-top: 14px;
+	}
+	.user-reg2{
+		width: 10%;
+		float: left;
+		display: inline-block;
+		color: #909090;
+		font-weight: bold;
+		text-align: center;
+	}
+	.user-reg3{
+		float: right;
+		width: 45%;
+		display: inline-block;
+		border-top: 1px dashed #d5d5d5;
+		margin-top: 14px;
+		//text-align: center;
+	}
+}
+
+.form{
+	width: 996px;
+	//height: 400px;
+	overflow: hidden;
+	margin: 10px auto;
+	text-align: center;
+	dl{
+		width: 310px;
+		background: #ededed;
+		height: 40px;
+		//margin-top: 20px;
+		line-height: 40px;
+		margin: 0 auto;
+		position: relative;
+		dt{
+			width: 90px;
+			border-right: 5px solid white;
+			height: 40px;
+			font-size: 14px;
+			float: left;
+		}
+		dd{
+			float: left;
+			display: inline-block;
+			line-height: 38px;
+		input{
+			border: 0;
+			background: #ededed;
+			height: 30px;
+			width: 200px;
+			outline: none;
+			color: #626262;
+			margin-left: 10px;
+			
+		}
+		.telp,.passw{
+		    position: absolute;
+			left: 270px;
+			top: 0px;
+			color: red;
+			font-size: 13px;
+			width: 200px;
+			display: none;
+		}
+		}
+	}
+	.pa{
+		margin-top: 20px;
+	}
+	.sub{
+		width: 200px;
+		height: 40px;
+		background: #87d0e3;
+		margin-top: 20px;
+		font-size: 16px;
+		font-weight: bold;
+		color: white;
+		margin-bottom: 40px;
+		border: 0;
+	}
+	.sub1{
+		width: 80px;
+		margin-left: 30px;
+		height: 40px;
+		border: 0;
+	}
+}
